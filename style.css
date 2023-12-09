@@ -12,6 +12,11 @@ header
     padding: 1rem;
 
 }
+body.dark-mode
+{
+    background-color: #1a1a1a;
+    color: #fff;
+}
 nav
 {
     background-color: #444;
