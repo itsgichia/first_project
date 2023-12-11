@@ -13,3 +13,20 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+// script.js
+
+document.addEventListener('DOMContentLoaded', function () {
+    // ... (existing JavaScript code) ...
+
+    const visitCountElement = document.getElementById('visitCount');
+    const incrementCounterButton = document.getElementById('incrementCounter');
+    let visitCount = 0;
+
+    if (incrementCounterButton && visitCountElement) {
+        incrementCounterButton.addEventListener('click', function () {
+            // Increment the counter and update the element
+            visitCount++;
+            visitCountElement.textContent = visitCount.toString();
+        });
+    }
+});
