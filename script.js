@@ -12,12 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
             body.classList.toggle('dark-mode');
         });
     }
-});
-// script.js
-
-document.addEventListener('DOMContentLoaded', function () {
-    // ... (existing JavaScript code) ...
-
     const visitCountElement = document.getElementById('visitCount');
     const incrementCounterButton = document.getElementById('incrementCounter');
     let visitCount = 0;
@@ -29,11 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
             visitCountElement.textContent = visitCount.toString();
         });
     }
-});
-// script.js
-
-document.addEventListener('DOMContentLoaded', function () {
-    // ... (existing JavaScript code) ...
 
     const currentYearElement = document.getElementById('currentYear');
 
