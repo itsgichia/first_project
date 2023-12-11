@@ -27,6 +27,10 @@ nav ul
 {
     text-decoration: none;
     color: #fff;
+    padding: 0.5rem;
+    margin: 0 0.2rem;
+    border-radius: 5px;
+    background-color: #555;
 
 }
 section
