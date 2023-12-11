@@ -30,3 +30,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+// script.js
+
+document.addEventListener('DOMContentLoaded', function () {
+    // ... (existing JavaScript code) ...
+
+    const currentYearElement = document.getElementById('currentYear');
+
+    if (currentYearElement) {
+        // Set the current year dynamically
+        const currentYear = new Date().getFullYear();
+        currentYearElement.textContent = currentYear.toString();
+    }
+});
+
